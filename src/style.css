@@ -1,7 +1,26 @@
-.spade, .club{
-    color:black;
+body {
+    background-color: green;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.heart, .diamond{
-    color: red;
+.rotate{
+    transform: rotate(180deg)
+}
+.card-symbol{
+    font-size: 5rem;
+    text-align: center;
+    line-height: 1;
+}
+.card-corner{
+    font-size: 2rem;
+    line-height: 1;
+}
+.card-value{
+    font-size: 8rem;
+    line-height: 1;
+}
+.symbol-size{
+    font-size: 5rem;
 }
