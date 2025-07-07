@@ -1,5 +1,7 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+.spade, .club{
+    color:black;
+}
 
-body{
-    background: white;
+.heart, .diamond{
+    color: red;
 }
